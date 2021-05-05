@@ -1,0 +1,39 @@
+i {
+    display: none;
+}
+
+.icon-style{
+    display: flex  !important;
+}
+
+
+.icon-style-mobile{
+    display: none  !important;
+}
+
+@media (max-width: 768px) {
+    .icon-style {
+        display: none  !important;
+    }
+
+    .icon-style-mobile {
+        display: flex !important;
+    }
+
+    
+
+ }
+
+
+
+
+.black-color {
+    color: black  !important;
+}
+
+
+.div-center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
