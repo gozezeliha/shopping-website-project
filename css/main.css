@@ -20,11 +20,14 @@ i {
         display: flex !important;
     }
 
-    
-
+    .fixed-top_media {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+    }
  }
-
-
 
 
 .black-color {
@@ -36,4 +39,6 @@ i {
     align-items: center;
     justify-content: center;
     display: flex;
+    padding: 4px;
+    
 }
